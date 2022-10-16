@@ -1,7 +1,5 @@
-import 'package:database/screens/page/Database/inventory.dart';
-import 'package:database/screens/page/Database/stock.dart';
-import 'package:database/screens/page/Patient/addPatient.dart';
-import 'package:database/screens/page/Patient/dataPatient.dart';
+import 'package:database/screens/page/inventory.dart';
+import 'package:database/screens/page/stock.dart';
 import 'package:database/screens/speedDial.dart';
 import 'package:flutter/material.dart';
 import 'package:titled_navigation_bar/titled_navigation_bar.dart';
@@ -19,7 +17,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
 
-  final List<Widget> tabs = [ const AddPatient(), const DataPatient(), const Inventory(), Stock()];
+  final List<Widget> tabs = [const Inventory(), Stock()];
 
   final List<TitledNavigationBarItem> items = [
     TitledNavigationBarItem(
