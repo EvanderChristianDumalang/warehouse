@@ -21,25 +21,13 @@ class _HomeState extends State<Home> {
 
   final List<TitledNavigationBarItem> items = [
     TitledNavigationBarItem(
-        title: const Text('Pasien', style: TextStyle(fontSize: 20)),
-        icon: SizedBox.fromSize(
-            size: const Size.fromRadius(20),
-            child: const FittedBox(child: Icon(Icons.medical_services))),
-        backgroundColor: Colors.cyan),
-    TitledNavigationBarItem(
-        title: const Text('Data', style: TextStyle(fontSize: 20)),
-        icon: SizedBox.fromSize(
-            size: const Size.fromRadius(20),
-            child: const FittedBox(child: Icon(Icons.medical_information))),
-        backgroundColor: Colors.cyan),
-    TitledNavigationBarItem(
-        title: const Text('Barang', style: TextStyle(fontSize: 20)),
+        title: const Text('Items', style: TextStyle(fontSize: 20)),
         icon: SizedBox.fromSize(
             size: const Size.fromRadius(20),
             child: const FittedBox(child: Icon(Icons.inventory))),
         backgroundColor: Colors.cyan),
     TitledNavigationBarItem(
-        title: const Text('Habis', style: TextStyle(fontSize: 20)),
+        title: const Text('Run Out', style: TextStyle(fontSize: 20)),
         icon: SizedBox.fromSize(
             size: const Size.fromRadius(20),
             child: const FittedBox(child: Icon(Icons.inventory_2_outlined))),
